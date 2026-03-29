@@ -1,0 +1,30 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Terraform directory (contém plugins e dados temporários)
+.terraform/
+
+# Terraform lock file (opcional, mas bom ignorar se não quiser versionar)
+.terraform.lock.hcl
+
+# Terraform state directories (para workspaces)
+terraform.tfstate.d/
+
+# Crash logs
+crash.log
+
+# Override files (usados para testes locais)
+override.tf
+override.tf.json
+
+# Arquivos de variáveis com segredos (se existir)
+*.tfvars
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos temporários
+*.log
+*.tmp
